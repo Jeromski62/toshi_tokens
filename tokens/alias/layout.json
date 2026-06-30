@@ -1,0 +1,18 @@
+{
+  "alias": {
+    "screen": {
+      "maxWidth": {
+        "$value": "{screen.maxWidth}",
+        "$type": "sizing",
+        "$description": "max-width of screensize"
+      },
+      "layout": {
+        "paddingLeftRight": {
+          "$value": "{screen.layout.paddingLeftRight}",
+          "$type": "spacing",
+          "$description": "horizontal wrapper padding"
+        }
+      }
+    }
+  }
+}

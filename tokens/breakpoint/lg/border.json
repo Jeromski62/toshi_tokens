@@ -1,0 +1,41 @@
+{
+  "borderWidth": {
+    "xs": {
+      "$value": "{scale.7xs}",
+      "$type": "borderWidth",
+      "$description": "smallest thickness for borders"
+    },
+    "sm": {
+      "$value": "{scale.6xs}",
+      "$type": "borderWidth",
+      "$description": "small thickness for borders"
+    },
+    "md": {
+      "$value": "{scale.5xs}",
+      "$type": "borderWidth",
+      "$description": "medium border thickness"
+    }
+  },
+  "radius": {
+    "none": {
+      "$value": "{brand.shape.none}",
+      "$type": "borderRadius",
+      "$description": "border radius of none"
+    },
+    "sm": {
+      "$value": "{brand.shape.sm}",
+      "$type": "borderRadius",
+      "$description": "small border radius"
+    },
+    "md": {
+      "$value": "{brand.shape.md}",
+      "$type": "borderRadius",
+      "$description": "medium border radius"
+    },
+    "lg": {
+      "$value": "{brand.shape.lg}",
+      "$type": "borderRadius",
+      "$description": "large border radius"
+    }
+  }
+}

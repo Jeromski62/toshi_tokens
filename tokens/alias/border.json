@@ -1,0 +1,62 @@
+{
+  "alias": {
+    "borderWidth": {
+      "xs": {
+        "$value": "{borderWidth.xs}",
+        "$type": "borderWidth",
+        "$description": "smallest thickness for borders"
+      },
+      "sm": {
+        "$value": "{borderWidth.sm}",
+        "$type": "borderWidth",
+        "$description": "small thickness for borders"
+      },
+      "md": {
+        "$value": "{borderWidth.md}",
+        "$type": "borderWidth",
+        "$description": "medium border thickness"
+      }
+    },
+    "border": {
+      "focusOutline": {
+        "$value": {
+          "color": "{alias.color.border.focusOutline}",
+          "width": "{alias.borderWidth.md}",
+          "style": "solid"
+        },
+        "$type": "border",
+        "$description": "default outline for focused elements"
+      }
+    },
+    "radius": {
+      "none": {
+        "$extensions": {
+          "com.figma.codeSyntax": {
+            "Web": ""
+          },
+          "com.figma.scopes": [
+            "CORNER_RADIUS"
+          ]
+        },
+        "$value": "{radius.none}",
+        "$type": "borderRadius",
+        "$description": "border radius of none"
+      },
+      "sm": {
+        "$value": "{radius.sm}",
+        "$type": "borderRadius",
+        "$description": "small border radius"
+      },
+      "md": {
+        "$value": "{radius.md}",
+        "$type": "borderRadius",
+        "$description": "medium border radius"
+      },
+      "lg": {
+        "$value": "{radius.lg}",
+        "$type": "borderRadius",
+        "$description": "large border radius"
+      }
+    }
+  }
+}

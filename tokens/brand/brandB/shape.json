@@ -1,0 +1,26 @@
+{
+  "brand": {
+    "shape": {
+      "none": {
+        "$value": "0px",
+        "$type": "borderRadius",
+        "$description": "radius of 0"
+      },
+      "sm": {
+        "$value": "2px",
+        "$type": "borderRadius",
+        "$description": "small radius for branded shapes"
+      },
+      "md": {
+        "$value": "8px",
+        "$type": "borderRadius",
+        "$description": "medium radius for branded shapes"
+      },
+      "lg": {
+        "$value": "32px",
+        "$type": "borderRadius",
+        "$description": "large radius for branded shapes"
+      }
+    }
+  }
+}

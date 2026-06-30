@@ -1,0 +1,185 @@
+{
+  "alias": {
+    "font": {
+      "display": {
+        "1": {
+          "$value": {
+            "fontFamily": "{typescale.fontFamily.display.1}",
+            "fontWeight": "{typescale.fontWeight.display.1}",
+            "lineHeight": "{typescale.lineHeight.display.1}",
+            "fontSize": "{typescale.fontSize.display.1}",
+            "letterSpacing": "{typescale.letterSpacing.display.1}"
+          },
+          "$type": "typography",
+          "$description": "display font for highest possible emphasis"
+        },
+        "2": {
+          "$value": {
+            "fontFamily": "{typescale.fontFamily.display.2}",
+            "fontWeight": "{typescale.fontWeight.display.2}",
+            "lineHeight": "{typescale.lineHeight.display.2}",
+            "fontSize": "{typescale.fontSize.display.2}",
+            "letterSpacing": "{typescale.letterSpacing.display.2}"
+          },
+          "$type": "typography",
+          "$description": "display font for high emphasis headlines"
+        }
+      },
+      "headline": {
+        "1": {
+          "$value": {
+            "fontFamily": "{typescale.fontFamily.headline.1}",
+            "fontWeight": "{typescale.fontWeight.headline.1}",
+            "lineHeight": "{typescale.lineHeight.headline.1}",
+            "fontSize": "{typescale.fontSize.headline.1}",
+            "letterSpacing": "{typescale.letterSpacing.headline.1}"
+          },
+          "$type": "typography",
+          "$description": "headline level 01"
+        },
+        "2": {
+          "$value": {
+            "fontFamily": "{typescale.fontFamily.headline.2}",
+            "fontWeight": "{typescale.fontWeight.headline.2}",
+            "lineHeight": "{typescale.lineHeight.headline.2}",
+            "fontSize": "{typescale.fontSize.headline.2}",
+            "letterSpacing": "{typescale.letterSpacing.headline.2}"
+          },
+          "$type": "typography",
+          "$description": "headline level 02"
+        },
+        "3": {
+          "$value": {
+            "fontFamily": "{typescale.fontFamily.headline.3}",
+            "fontWeight": "{typescale.fontWeight.headline.3}",
+            "lineHeight": "{typescale.lineHeight.headline.3}",
+            "fontSize": "{typescale.fontSize.headline.3}",
+            "letterSpacing": "{typescale.letterSpacing.headline.3}"
+          },
+          "$type": "typography",
+          "$description": "headline level 03"
+        },
+        "4": {
+          "$value": {
+            "fontFamily": "{typescale.fontFamily.headline.4}",
+            "fontWeight": "{typescale.fontWeight.headline.4}",
+            "lineHeight": "{typescale.lineHeight.headline.4}",
+            "fontSize": "{typescale.fontSize.headline.4}",
+            "letterSpacing": "{typescale.letterSpacing.headline.4}"
+          },
+          "$type": "typography",
+          "$description": "headlines level 04"
+        },
+        "5": {
+          "$value": {
+            "fontFamily": "{typescale.fontFamily.headline.5}",
+            "fontWeight": "{typescale.fontWeight.headline.5}",
+            "lineHeight": "{typescale.lineHeight.headline.5}",
+            "fontSize": "{typescale.fontSize.headline.5}",
+            "letterSpacing": "{typescale.letterSpacing.headline.5}"
+          },
+          "$type": "typography",
+          "$description": "headlines level 05"
+        }
+      },
+      "label": {
+        "short": {
+          "$value": {
+            "fontFamily": "{typescale.fontFamily.label.short}",
+            "fontWeight": "{typescale.fontWeight.label.short}",
+            "lineHeight": "{typescale.lineHeight.label.short}",
+            "fontSize": "{typescale.fontSize.label.short}",
+            "letterSpacing": "{typescale.letterSpacing.label.short}"
+          },
+          "$type": "typography",
+          "$description": "labels that are single lined"
+        },
+        "long": {
+          "$value": {
+            "fontFamily": "{typescale.fontFamily.label.long}",
+            "fontWeight": "{typescale.fontWeight.label.long}",
+            "lineHeight": "{typescale.lineHeight.label.long}",
+            "fontSize": "{typescale.fontSize.label.long}",
+            "letterSpacing": "{typescale.letterSpacing.label.long}"
+          },
+          "$type": "typography",
+          "$description": "labels that are going over multiple lines"
+        }
+      },
+      "body": {
+        "short": {
+          "$value": {
+            "fontFamily": "{typescale.fontFamily.body.short}",
+            "fontWeight": "{typescale.fontWeight.body.short}",
+            "lineHeight": "{typescale.lineHeight.body.short}",
+            "fontSize": "{typescale.fontSize.body.short}",
+            "letterSpacing": "{typescale.letterSpacing.body.short}"
+          },
+          "$type": "typography",
+          "$description": "single line paragraph texts"
+        },
+        "long": {
+          "$value": {
+            "fontFamily": "{typescale.fontFamily.body.long}",
+            "fontWeight": "{typescale.fontWeight.body.long}",
+            "lineHeight": "{typescale.lineHeight.body.long}",
+            "fontSize": "{typescale.fontSize.body.long}",
+            "letterSpacing": "{typescale.letterSpacing.body.long}"
+          },
+          "$type": "typography",
+          "$description": "paragraphs that are going over multiple lines"
+        },
+        "small": {
+          "$value": {
+            "fontFamily": "{typescale.fontFamily.body.small}",
+            "fontWeight": "{typescale.fontWeight.body.small}",
+            "lineHeight": "{typescale.lineHeight.body.small}",
+            "fontSize": "{typescale.fontSize.body.small}",
+            "letterSpacing": "{typescale.letterSpacing.body.small}"
+          },
+          "$type": "typography",
+          "$description": "small paragraph texts"
+        }
+      },
+      "hyperlink": {
+        "default": {
+          "$value": {
+            "fontFamily": "{typescale.fontFamily.hyperlink.default}",
+            "fontWeight": "{typescale.fontWeight.hyperlink.default}",
+            "lineHeight": "{typescale.lineHeight.hyperlink.default}",
+            "fontSize": "{typescale.fontSize.hyperlink.default}",
+            "letterSpacing": "{typescale.letterSpacing.hyperlink.default}",
+            "textDecoration": "{typescale.textDecoration.hyperlink.default}"
+          },
+          "$type": "typography",
+          "$description": "default for hyperlinks"
+        },
+        "hover": {
+          "$value": {
+            "fontFamily": "{typescale.fontFamily.hyperlink.hover}",
+            "fontWeight": "{typescale.fontWeight.hyperlink.hover}",
+            "lineHeight": "{typescale.lineHeight.hyperlink.hover}",
+            "fontSize": "{typescale.fontSize.hyperlink.hover}",
+            "letterSpacing": "{typescale.letterSpacing.hyperlink.hover}",
+            "textDecoration": "{typescale.textDecoration.hyperlink.hover}"
+          },
+          "$type": "typography",
+          "$description": "hover for hyperlinks"
+        }
+      },
+      "code": {
+        "small": {
+          "$value": {
+            "fontFamily": "{typescale.fontFamily.code.small}",
+            "fontWeight": "{typescale.fontWeight.code.small}",
+            "fontSize": "{typescale.fontSize.code.small}",
+            "lineHeight": "{typescale.lineHeight.code.small}",
+            "letterSpacing": "{typescale.letterSpacing.code.small}"
+          },
+          "$type": "typography",
+          "$description": "small representation of code blocks"
+        }
+      }
+    }
+  }
+}

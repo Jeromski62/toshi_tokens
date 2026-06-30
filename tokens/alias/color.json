@@ -1,0 +1,233 @@
+{
+  "alias": {
+    "color": {
+      "primary": {
+        "interaction": {
+          "$value": "{mode.primary.interaction}",
+          "$type": "color",
+          "$description": "color that indicates interactions"
+        },
+        "onInteraction": {
+          "$value": "{mode.primary.onInteraction}",
+          "$type": "color",
+          "$description": "color for elements that are placed on interactive background colors"
+        },
+        "brand": {
+          "$value": "{mode.primary.brand}",
+          "$type": "color",
+          "$description": "background color for primary brand elements"
+        },
+        "onBrand": {
+          "$value": "{mode.primary.onBrand}",
+          "$type": "color",
+          "$description": "color for elements that are placed on brand background color"
+        }
+      },
+      "secondary": {
+        "interaction": {
+          "$value": "{mode.secondary.interaction}",
+          "$type": "color",
+          "$description": "secondary interaction color for backgrounds"
+        },
+        "onInteraction": {
+          "$value": "{mode.secondary.onInteraction}",
+          "$type": "color",
+          "$description": "secondary foreground color for interactions"
+        },
+        "brand": {
+          "$value": "{mode.secondary.brand}",
+          "$type": "color",
+          "$description": "secondary brand color for backgrounds"
+        },
+        "onBrand": {
+          "$value": "{mode.secondary.onBrand}",
+          "$type": "color",
+          "$description": "secondary brand color for backgrounds"
+        }
+      },
+      "intent": {
+        "infoHighEmphasis": {
+          "$value": "{mode.intent.infoHighEmphasis}",
+          "$type": "color",
+          "$description": "color for elements with informational purpose of high emphasis"
+        },
+        "infoLowEmphasis": {
+          "$value": "{mode.intent.infoLowEmphasis}",
+          "$type": "color",
+          "$description": "color for elements with informational purpose of low emphasis"
+        },
+        "onInfo": {
+          "$value": "{mode.intent.onInfo}",
+          "$type": "color",
+          "$description": "color for elements placed on informational purpose background"
+        },
+        "successHighEmphasis": {
+          "$value": "{mode.intent.successHighEmphasis}",
+          "$type": "color",
+          "$description": "color for elements with success purpose of high emphasis"
+        },
+        "successLowEmphasis": {
+          "$value": "{mode.intent.successLowEmphasis}",
+          "$type": "color",
+          "$description": "color for elements with success purpose of low emphasis"
+        },
+        "onSuccess": {
+          "$value": "{mode.intent.onSuccess}",
+          "$type": "color",
+          "$description": "color for elements placed on success purpose background"
+        },
+        "warningHighEmphasis": {
+          "$value": "{mode.intent.warningHighEmphasis}",
+          "$type": "color",
+          "$description": "color for elements with warning purpose of high emphasis"
+        },
+        "warningLowEmphasis": {
+          "$value": "{mode.intent.warningLowEmphasis}",
+          "$type": "color",
+          "$description": "color for elements with warning purpose of low emphasis"
+        },
+        "onWarning": {
+          "$value": "{mode.intent.onWarning}",
+          "$type": "color",
+          "$description": "color for elements placed on warning purpose background"
+        },
+        "criticalHighEmphasis": {
+          "$value": "{mode.intent.criticalHighEmphasis}",
+          "$type": "color",
+          "$description": "color for elements with critical purpose of high emphasis"
+        },
+        "criticalLowEmphasis": {
+          "$value": "{mode.intent.criticalLowEmphasis}",
+          "$type": "color",
+          "$description": "color for elements with critical purpose of low emphasis"
+        },
+        "onCritical": {
+          "$value": "{mode.intent.onCritical}",
+          "$type": "color",
+          "$description": "color for elements placed on critical purpose background"
+        }
+      },
+      "background": {
+        "body": {
+          "$value": "{mode.background.body}",
+          "$type": "color",
+          "$description": "body background color"
+        },
+        "highEmphasis": {
+          "$value": "{mode.background.highEmphasis}",
+          "$type": "color",
+          "$description": "background Color for components with high emphasis"
+        },
+        "mediumEmphasis": {
+          "$value": "{mode.background.mediumEmphasis}",
+          "$type": "color",
+          "$description": "background Color for components with medium emphasis"
+        },
+        "lowEmphasis": {
+          "$value": "{mode.background.lowEmphasis}",
+          "$type": "color",
+          "$description": "background color for elements with a low emphasis"
+        }
+      },
+      "text": {
+        "default": {
+          "$value": "{mode.text.default}",
+          "$type": "color",
+          "$description": "default text color"
+        },
+        "inverted": {
+          "$value": "{mode.text.inverted}",
+          "$type": "color",
+          "$description": "inverted text color"
+        },
+        "subtle": {
+          "$value": "{mode.text.subtle}",
+          "$type": "color",
+          "$description": "text color in subtle weight"
+        }
+      },
+      "state": {
+        "disable": {
+          "$value": "{mode.state.disable}",
+          "$type": "color",
+          "$description": "background color for disabled elements"
+        },
+        "onDisable": {
+          "$value": "{mode.state.onDisable}",
+          "$type": "color",
+          "$description": "color for elements that are placed on disabled background color"
+        },
+        "hover": {
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.16",
+                "space": "srgb"
+              }
+            }
+          },
+          "$value": "{mode.state.hover}",
+          "$type": "color",
+          "$description": "background color for state overlay of a hovered element"
+        },
+        "press": {
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.08",
+                "space": "srgb"
+              }
+            }
+          },
+          "$value": "{mode.state.press}",
+          "$type": "color",
+          "$description": "background color for state overlay of a pressed element"
+        },
+        "select": {
+          "$value": "{mode.state.select}",
+          "$type": "color",
+          "$description": "background color for selected elements"
+        },
+        "onSelect": {
+          "$value": "{mode.state.onSelect}",
+          "$type": "color",
+          "$description": "foreground color for selected elements"
+        },
+        "selectInverted": {
+          "$value": "{mode.state.selectInverted}",
+          "$type": "color",
+          "$description": "inverted background color for selected elements"
+        },
+        "onSelectInverted": {
+          "$value": "{mode.state.onSelectInverted}",
+          "$type": "color",
+          "$description": "inverted color for elements on selected backgrounds"
+        }
+      },
+      "border": {
+        "subtle": {
+          "$value": "{mode.border.subtle}",
+          "$type": "color",
+          "$description": "subtle border color"
+        },
+        "medium": {
+          "$value": "{mode.border.medium}",
+          "$type": "color",
+          "$description": "medium border color"
+        },
+        "heavy": {
+          "$value": "{mode.border.heavy}",
+          "$type": "color",
+          "$description": "heavy border color"
+        },
+        "focusOutline": {
+          "$value": "{mode.border.focusOutline}",
+          "$type": "color",
+          "$description": "color for default focus outline"
+        }
+      }
+    }
+  }
+}

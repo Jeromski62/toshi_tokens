@@ -1,0 +1,21 @@
+{
+  "alias": {
+    "grid": {
+      "cols": {
+        "$value": "{grid.cols}",
+        "$type": "number",
+        "$description": "cols of grid on breakpoint"
+      },
+      "marginLeftRight": {
+        "$value": "{grid.marginLeftRight}",
+        "$type": "sizing",
+        "$description": "margin of grid"
+      },
+      "gutter": {
+        "$value": "{grid.gutter}",
+        "$type": "spacing",
+        "$description": "gutter of grid"
+      }
+    }
+  }
+}

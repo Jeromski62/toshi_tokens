@@ -1,0 +1,463 @@
+{
+  "typescale": {
+    "fontWeight": {
+      "display": {
+        "1": {
+          "$value": "{brand.font.weight.black}",
+          "$type": "fontWeights",
+          "$description": "font weight for display 01"
+        },
+        "2": {
+          "$value": "{brand.font.weight.bold}",
+          "$type": "fontWeights",
+          "$description": "font weight for display 02"
+        }
+      },
+      "headline": {
+        "1": {
+          "$value": "{brand.font.weight.black}",
+          "$type": "fontWeights",
+          "$description": "font weight for headline 01"
+        },
+        "2": {
+          "$value": "{brand.font.weight.bold}",
+          "$type": "fontWeights",
+          "$description": "font weight for headline 02"
+        },
+        "3": {
+          "$value": "{brand.font.weight.bold}",
+          "$type": "fontWeights",
+          "$description": "font weight for headline 03"
+        },
+        "4": {
+          "$value": "{brand.font.weight.bold}",
+          "$type": "fontWeights",
+          "$description": "font weight for headline 04"
+        },
+        "5": {
+          "$value": "{brand.font.weight.bold}",
+          "$type": "fontWeights",
+          "$description": "font weight for headline 05"
+        }
+      },
+      "label": {
+        "short": {
+          "$value": "{brand.font.weight.semiBold}",
+          "$type": "fontWeights",
+          "$description": "font weight for single line  labels"
+        },
+        "long": {
+          "$value": "{brand.font.weight.bold}",
+          "$type": "fontWeights",
+          "$description": "font weight for multi line labels"
+        }
+      },
+      "body": {
+        "short": {
+          "$value": "{brand.font.weight.default}",
+          "$type": "fontWeights",
+          "$description": "font weight for single line paragraph texts"
+        },
+        "long": {
+          "$value": "{brand.font.weight.default}",
+          "$type": "fontWeights",
+          "$description": "font weight for multi line paragraph texts"
+        },
+        "small": {
+          "$value": "{brand.font.weight.default}",
+          "$type": "fontWeights",
+          "$description": "font weight for small paragraph texts"
+        }
+      },
+      "hyperlink": {
+        "default": {
+          "$value": "{brand.font.weight.default}",
+          "$type": "fontWeights",
+          "$description": "font weight for hyperlinks"
+        },
+        "hover": {
+          "$value": "{brand.font.weight.default}",
+          "$type": "fontWeights",
+          "$description": "font weight for hyperlinks in hover state"
+        }
+      },
+      "code": {
+        "small": {
+          "$value": "{brand.font.weight.default}",
+          "$type": "fontWeights",
+          "$description": "font weight for small code representation"
+        }
+      }
+    },
+    "fontSize": {
+      "display": {
+        "1": {
+          "$value": "{brand.font.size.3xl}",
+          "$type": "fontSizes",
+          "$description": "font size of display 01"
+        },
+        "2": {
+          "$value": "{brand.font.size.2xl}",
+          "$type": "fontSizes",
+          "$description": "font size of display 02"
+        }
+      },
+      "headline": {
+        "1": {
+          "$value": "{brand.font.size.lg}",
+          "$type": "fontSizes",
+          "$description": "font size of headline 01"
+        },
+        "2": {
+          "$value": "{brand.font.size.md}",
+          "$type": "fontSizes",
+          "$description": "font size of headline 02"
+        },
+        "3": {
+          "$value": "{brand.font.size.sm}",
+          "$type": "fontSizes",
+          "$description": "font size of headline 03"
+        },
+        "4": {
+          "$value": "{brand.font.size.xs}",
+          "$type": "fontSizes",
+          "$description": "font size of headline 04"
+        },
+        "5": {
+          "$value": "{brand.font.size.2xs}",
+          "$type": "fontSizes",
+          "$description": "font size of headline 05"
+        }
+      },
+      "label": {
+        "short": {
+          "$value": "{brand.font.size.xs}",
+          "$type": "fontSizes",
+          "$description": "font size of single line labels"
+        },
+        "long": {
+          "$value": "{brand.font.size.xs}",
+          "$type": "fontSizes",
+          "$description": "font size of multi line labels"
+        }
+      },
+      "body": {
+        "short": {
+          "$value": "{brand.font.size.xs}",
+          "$type": "fontSizes",
+          "$description": "font size of single line body texts"
+        },
+        "long": {
+          "$value": "{brand.font.size.xs}",
+          "$type": "fontSizes",
+          "$description": "font size of multi line body texts"
+        },
+        "small": {
+          "$value": "{brand.font.size.2xs}",
+          "$type": "fontSizes",
+          "$description": "font size of small body texts"
+        }
+      },
+      "hyperlink": {
+        "default": {
+          "$value": "{brand.font.size.xs}",
+          "$type": "fontSizes",
+          "$description": "font size of default hyperlinks"
+        },
+        "hover": {
+          "$value": "{brand.font.size.xs}",
+          "$type": "fontSizes",
+          "$description": "font size of hyperlinks in hover state"
+        }
+      },
+      "code": {
+        "small": {
+          "$value": "{brand.font.size.2xs}",
+          "$type": "fontSizes",
+          "$description": "font size for small code representation"
+        }
+      }
+    },
+    "lineHeight": {
+      "display": {
+        "1": {
+          "$value": "{brand.font.lineHeight.3xl}",
+          "$type": "lineHeights",
+          "$description": "line height for display 1"
+        },
+        "2": {
+          "$value": "{brand.font.lineHeight.2xl}",
+          "$type": "lineHeights",
+          "$description": "line height for display 2"
+        }
+      },
+      "headline": {
+        "1": {
+          "$value": "{brand.font.lineHeight.ml}",
+          "$type": "lineHeights",
+          "$description": "line height of headline 01"
+        },
+        "2": {
+          "$value": "{brand.font.lineHeight.ml}",
+          "$type": "lineHeights",
+          "$description": "line height of headline 02"
+        },
+        "3": {
+          "$value": "{brand.font.lineHeight.sm}",
+          "$type": "lineHeights",
+          "$description": "line height of headline 03"
+        },
+        "4": {
+          "$value": "{brand.font.lineHeight.xs}",
+          "$type": "lineHeights",
+          "$description": "line height of headline 04"
+        },
+        "5": {
+          "$value": "{brand.font.lineHeight.2xs}",
+          "$type": "lineHeights",
+          "$description": "line height of headline 05"
+        }
+      },
+      "label": {
+        "short": {
+          "$value": "{brand.font.lineHeight.xs}",
+          "$type": "lineHeights",
+          "$description": "line height of single line labels"
+        },
+        "long": {
+          "$value": "{brand.font.lineHeight.sm}",
+          "$type": "lineHeights",
+          "$description": "line height of multi line labels"
+        }
+      },
+      "body": {
+        "short": {
+          "$value": "{brand.font.lineHeight.xs}",
+          "$type": "lineHeights",
+          "$description": "line height of single line body texts"
+        },
+        "long": {
+          "$value": "{brand.font.lineHeight.sm}",
+          "$type": "lineHeights",
+          "$description": "line height of multi line body texts"
+        },
+        "small": {
+          "$value": "{brand.font.lineHeight.3xs}",
+          "$type": "lineHeights",
+          "$description": "line height of small body texts"
+        }
+      },
+      "hyperlink": {
+        "default": {
+          "$value": "{brand.font.lineHeight.sm}",
+          "$type": "lineHeights",
+          "$description": "line height of default hyperlinks"
+        },
+        "hover": {
+          "$value": "{brand.font.lineHeight.sm}",
+          "$type": "lineHeights",
+          "$description": "line height of hyperlinks in hover state"
+        }
+      },
+      "code": {
+        "small": {
+          "$value": "{brand.font.lineHeight.3xs}",
+          "$type": "lineHeights",
+          "$description": "line height for small code representation"
+        }
+      }
+    },
+    "letterSpacing": {
+      "display": {
+        "1": {
+          "$value": "{brand.font.letterSpacing.xs}",
+          "$type": "letterSpacing",
+          "$description": "letterspacing for display 01"
+        },
+        "2": {
+          "$value": "{brand.font.letterSpacing.xs}",
+          "$type": "letterSpacing",
+          "$description": "letterspacing for display 02"
+        }
+      },
+      "headline": {
+        "1": {
+          "$value": "{brand.font.letterSpacing.xs}",
+          "$type": "letterSpacing",
+          "$description": "letterspacing for headline 01"
+        },
+        "2": {
+          "$value": "{brand.font.letterSpacing.xs}",
+          "$type": "letterSpacing",
+          "$description": "letterspacing for headline 02"
+        },
+        "3": {
+          "$value": "{brand.font.letterSpacing.xs}",
+          "$type": "letterSpacing",
+          "$description": "letterspacing for headline 03"
+        },
+        "4": {
+          "$value": "{brand.font.letterSpacing.xs}",
+          "$type": "letterSpacing",
+          "$description": "letterspacing for headline 04"
+        },
+        "5": {
+          "$value": "{brand.font.letterSpacing.sm}",
+          "$type": "letterSpacing",
+          "$description": "letterspacing for headline 05"
+        }
+      },
+      "label": {
+        "short": {
+          "$value": "{brand.font.letterSpacing.md}",
+          "$type": "letterSpacing",
+          "$description": "letterspacing for single line labels"
+        },
+        "long": {
+          "$value": "{brand.font.letterSpacing.md}",
+          "$type": "letterSpacing",
+          "$description": "letterspacing for multi line labels"
+        }
+      },
+      "body": {
+        "short": {
+          "$value": "{brand.font.letterSpacing.sm}",
+          "$type": "letterSpacing",
+          "$description": "letterspacing for single line body text"
+        },
+        "long": {
+          "$value": "{brand.font.letterSpacing.sm}",
+          "$type": "letterSpacing",
+          "$description": "letterspacing for multi line body text"
+        },
+        "small": {
+          "$value": "{brand.font.letterSpacing.md}",
+          "$type": "letterSpacing",
+          "$description": "letterspacing for small body texts"
+        }
+      },
+      "hyperlink": {
+        "default": {
+          "$value": "{brand.font.letterSpacing.sm}",
+          "$type": "letterSpacing",
+          "$description": "letterspacing for hyperlinks in default state"
+        },
+        "hover": {
+          "$value": "{brand.font.letterSpacing.md}",
+          "$type": "letterSpacing",
+          "$description": "letterspacing for hyperlinks in hover state"
+        }
+      },
+      "code": {
+        "small": {
+          "$value": "{brand.font.letterSpacing.sm}",
+          "$type": "letterSpacing",
+          "$description": "letter spacing for small code representation"
+        }
+      }
+    },
+    "textDecoration": {
+      "hyperlink": {
+        "default": {
+          "$value": "{brand.font.textDecoration.underline}",
+          "$type": "textDecoration",
+          "$description": "default text decoration for hyperlinks"
+        },
+        "hover": {
+          "$value": "{brand.font.textDecoration.none}",
+          "$type": "textDecoration",
+          "$description": "text decoration for hyperlinks in hover state"
+        }
+      }
+    },
+    "fontFamily": {
+      "display": {
+        "1": {
+          "$value": "{brand.font.family.display}",
+          "$type": "fontFamilies",
+          "$description": "fontfamily for display 01"
+        },
+        "2": {
+          "$value": "{brand.font.family.display}",
+          "$type": "fontFamilies",
+          "$description": "fontfamily for display 02"
+        }
+      },
+      "headline": {
+        "1": {
+          "$value": "{brand.font.family.content}",
+          "$type": "fontFamilies",
+          "$description": "fontfamily for headline 01"
+        },
+        "2": {
+          "$value": "{brand.font.family.content}",
+          "$type": "fontFamilies",
+          "$description": "fontfamily for headline 02"
+        },
+        "3": {
+          "$value": "{brand.font.family.content}",
+          "$type": "fontFamilies",
+          "$description": "fontfamily for headline 03"
+        },
+        "4": {
+          "$value": "{brand.font.family.content}",
+          "$type": "fontFamilies",
+          "$description": "fontfamily for headline 04"
+        },
+        "5": {
+          "$value": "{brand.font.family.content}",
+          "$type": "fontFamilies",
+          "$description": "fontfamily for headline 05"
+        }
+      },
+      "label": {
+        "short": {
+          "$value": "{brand.font.family.content}",
+          "$type": "fontFamilies",
+          "$description": "fontfamily for single line labels"
+        },
+        "long": {
+          "$value": "{brand.font.family.content}",
+          "$type": "fontFamilies",
+          "$description": "fontfamily for multi line labels"
+        }
+      },
+      "body": {
+        "short": {
+          "$value": "{brand.font.family.content}",
+          "$type": "fontFamilies",
+          "$description": "fontfamily for single line paragraph texts"
+        },
+        "long": {
+          "$value": "{brand.font.family.content}",
+          "$type": "fontFamilies",
+          "$description": "fontfamily for multi line paragraph texts"
+        },
+        "small": {
+          "$value": "{brand.font.family.content}",
+          "$type": "fontFamilies",
+          "$description": "fontfamily for small paragraph texts"
+        }
+      },
+      "hyperlink": {
+        "default": {
+          "$value": "{brand.font.family.content}",
+          "$type": "fontFamilies",
+          "$description": "fontfamily for hyperlinks"
+        },
+        "hover": {
+          "$value": "{brand.font.family.content}",
+          "$type": "fontFamilies",
+          "$description": "fontfamily for hyperlinks in hover state"
+        }
+      },
+      "code": {
+        "small": {
+          "$value": "{brand.font.family.code}",
+          "$type": "fontFamilies",
+          "$description": "font family for code representation"
+        }
+      }
+    }
+  }
+}

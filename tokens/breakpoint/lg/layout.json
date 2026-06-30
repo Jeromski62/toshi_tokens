@@ -1,0 +1,16 @@
+{
+  "screen": {
+    "maxWidth": {
+      "$value": "1440px",
+      "$type": "sizing",
+      "$description": "max-width of screensize"
+    },
+    "layout": {
+      "paddingLeftRight": {
+        "$value": "{space.xl}",
+        "$type": "spacing",
+        "$description": "horizontal wrapper padding"
+      }
+    }
+  }
+}

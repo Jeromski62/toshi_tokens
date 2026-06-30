@@ -1,0 +1,108 @@
+{
+  "alias": {
+    "size": {
+      "3xs": {
+        "$value": "{size.3xs}",
+        "$type": "sizing",
+        "$description": "extra extra extra small size unit"
+      },
+      "2xs": {
+        "$value": "{size.2xs}",
+        "$type": "sizing",
+        "$description": "extra extra small size unit"
+      },
+      "xs": {
+        "$value": "{size.xs}",
+        "$type": "sizing",
+        "$description": "extra small size unit"
+      },
+      "sm": {
+        "$value": "{size.sm}",
+        "$type": "sizing",
+        "$description": "small size unit"
+      },
+      "md": {
+        "$value": "{size.md}",
+        "$type": "sizing",
+        "$description": "medium size unit"
+      },
+      "lg": {
+        "$value": "{size.lg}",
+        "$type": "sizing",
+        "$description": "large size unit"
+      },
+      "xl": {
+        "$value": "{size.xl}",
+        "$type": "sizing",
+        "$description": "extra large size unit"
+      },
+      "2xl": {
+        "$value": "{size.2xl}",
+        "$type": "sizing",
+        "$description": "extra extra large size unit"
+      },
+      "3xl": {
+        "$value": "{size.3xl}",
+        "$type": "sizing",
+        "$description": "extra extra extra large size unit"
+      },
+      "none": {
+        "$value": "{size.none}",
+        "$type": "sizing",
+        "$description": "size of none"
+      }
+    },
+    "space": {
+      "3xs": {
+        "$value": "{space.3xs}",
+        "$type": "spacing",
+        "$description": "extra extra extra small spacing unit"
+      },
+      "2xs": {
+        "$value": "{space.2xs}",
+        "$type": "spacing",
+        "$description": "extra extra small spacing unit"
+      },
+      "xs": {
+        "$value": "{space.xs}",
+        "$type": "spacing",
+        "$description": "extra small spacing unit"
+      },
+      "sm": {
+        "$value": "{space.sm}",
+        "$type": "spacing",
+        "$description": "small spacing unit"
+      },
+      "md": {
+        "$value": "{space.md}",
+        "$type": "spacing",
+        "$description": "medium spacing unit"
+      },
+      "lg": {
+        "$value": "{space.lg}",
+        "$type": "spacing",
+        "$description": "large spacing unit"
+      },
+      "xl": {
+        "$value": "{space.xl}",
+        "$type": "spacing",
+        "$description": "extra large spacing unit"
+      },
+      "2xl": {
+        "$value": "{space.2xl}",
+        "$type": "spacing",
+        "$description": "extra extra large spacing unit"
+      },
+      "3xl": {
+        "$value": "{space.3xl}",
+        "$type": "spacing",
+        "$description": "extra extra extra large spacing unit"
+      },
+      "none": {
+        "$value": "{space.none}",
+        "$type": "spacing",
+        "$description": "spacing of none"
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "grid": {
+    "cols": {
+      "$value": 12,
+      "$type": "number",
+      "$description": "cols of grid on breakpoint"
+    },
+    "marginLeftRight": {
+      "$value": "{size.md}",
+      "$type": "sizing",
+      "$description": "margin of grid"
+    },
+    "gutter": {
+      "$value": "{space.xs}",
+      "$type": "spacing",
+      "$description": "gutter of grid"
+    }
+  }
+}

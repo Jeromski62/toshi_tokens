@@ -1,0 +1,25 @@
+{
+  "tokenSetOrder": [
+    "brand/brandA/color",
+    "brand/brandA/font",
+    "brand/brandA/shape",
+    "brand/brandB/color",
+    "brand/brandB/font",
+    "brand/brandB/shape",
+    "scaling/factors",
+    "breakpoint/lg/border",
+    "breakpoint/lg/dimension",
+    "breakpoint/lg/grid",
+    "breakpoint/lg/layout",
+    "breakpoint/lg/typescale",
+    "mode/dark",
+    "mode/light",
+    "alias/border",
+    "alias/color",
+    "alias/dimension",
+    "alias/font",
+    "alias/grid",
+    "alias/layout",
+    "components[deprecated]/sectionMessage"
+  ]
+}
