@@ -1,3 +1,10 @@
+---
+name: validate
+description: Validate tokens/tokens.json against all Toshi Design System conventions — broken references, compound tokens, missing types, hex casing, mode parity, brand structure parity
+disable-model-invocation: true
+allowed-tools: Read, Grep
+---
+
 # Skill: validate
 
 Validate `tokens/tokens.json` against all Toshi Design System conventions. Run every check and report results clearly.

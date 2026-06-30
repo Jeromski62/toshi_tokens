@@ -1,3 +1,10 @@
+---
+name: add-brand
+description: Add a new brand (color, font, shape) to the Toshi Design System token system
+disable-model-invocation: true
+allowed-tools: Read, Edit
+---
+
 # Skill: add-brand
 
 Add a new brand to the Toshi Design System token system. A brand consists of three sections: color, font, and shape.
