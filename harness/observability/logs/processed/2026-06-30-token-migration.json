@@ -1,0 +1,32 @@
+{
+  "date": "2026-06-30",
+  "pipeline": "B",
+  "task": "Token-Migration: tokens/tokens.json in Tier-Ordnerstruktur zerlegt (brand/, scaling/, breakpoint/, mode/, alias/, components[deprecated]/)",
+  "agents": [
+    {
+      "agent": "token-agent",
+      "result": "pass",
+      "tokens_used": "n/a",
+      "findings": 0,
+      "notes": "23 Token-Sets 1:1 aus tokens/tokens.json in Einzeldateien extrahiert, keine Wertänderung, tokens.json bis zur Freigabe erhalten"
+    },
+    {
+      "agent": "reviewer",
+      "result": "pass",
+      "tokens_used": "n/a",
+      "findings": 0,
+      "notes": "Deep-Equal-Check 23/23 Keys gegen Original verifiziert, 0 Orphan-Dateien"
+    },
+    {
+      "agent": "context-agent",
+      "result": "pass",
+      "tokens_used": "n/a",
+      "findings": 0,
+      "notes": "context/tokens.json (87 Alias-Tokens, dot-path Index) + context/changelog.json angelegt"
+    }
+  ],
+  "hooks": [],
+  "total_tokens": "n/a",
+  "duration_minutes": "n/a",
+  "notes": "Dateien wurden per Node-Skript geschrieben, nicht über das Write-Tool — PreToolUse/PostToolUse Hooks haben deshalb nicht ausgelöst. Token-/Dauer-Telemetrie pro Agent-Schritt ist nicht messbar und daher als n/a erfasst."
+}

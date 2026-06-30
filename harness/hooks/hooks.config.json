@@ -63,6 +63,17 @@
           }
         ]
       }
+    ],
+    "Stop": [
+      {
+        "description": "Metrics-Log — appends a session entry to harness/observability/metrics.md when Claude finishes responding",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node harness/hooks/metrics-log.js"
+          }
+        ]
+      }
     ]
   },
   "pending": {
