@@ -1,8 +1,8 @@
-# SCALES
+# Toshi – Design Tokens
 
 **A design token boilerplate for your design system.**
 
-SCALES gives you a production-ready, structured token set to build on — so you don't have to start from scratch. It is designed for design teams working with Figma and Token Studio, and is built around an X-tier architecture concept by Marco-Christian Krenn.
+Toshi gives you a production-ready, structured token set to build on — so you don't have to start from scratch. It is designed for design teams working with Figma and Token Studio, and is built around an X-tier architecture concept by Marco-Christian Krenn.
 
 ---
 
@@ -19,7 +19,7 @@ SCALES gives you a production-ready, structured token set to build on — so you
 
 ## Architecture
 
-SCALES is built on an X-tier model. Each tier has a clear responsibility:
+Toshi is built on an X-tier model. Each tier has a clear responsibility:
 
 ```
 scaling/factors    → global dimension scale (brand-independent)
@@ -46,7 +46,7 @@ For a full breakdown see [ARCHITECTURE.md](./ARCHITECTURE.md) and [CONVENTIONS.m
 
 ## Working with AI agents
 
-SCALES ships with agent-readable documentation and executable skill files:
+Toshi ships with agent-readable documentation and executable skill files:
 
 - [`ARCHITECTURE.md`](./docs/ARCHITECTURE.md) — tier model, reference chains, token structure
 - [`CONVENTIONS.md`](./docs/CONVENTIONS.md) — naming, value formats, structural rules
