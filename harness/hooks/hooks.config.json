@@ -1,0 +1,85 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write",
+        "description": "No-Hardcode-Check — runs on every file write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node harness/hooks/no-hardcode-check.js"
+          }
+        ]
+      },
+      {
+        "matcher": "Write",
+        "description": "Context-Sync — triggers Context Agent after token or component changes",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node harness/hooks/context-sync.js"
+          }
+        ]
+      },
+      {
+        "matcher": "Write",
+        "description": "WCAG-Check — runs on every component file write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node harness/hooks/wcag-check.js"
+          }
+        ]
+      },
+      {
+        "matcher": "Write",
+        "description": "Storybook-Completeness-Check — runs after story files are written",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node harness/hooks/storybook-completeness-check.js"
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Write",
+        "description": "Token-Existence-Check — runs before Component Agent writes a component",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node harness/hooks/token-existence-check.js"
+          }
+        ]
+      },
+      {
+        "matcher": "Write",
+        "description": "Alias-Migration-Check — blocks alias token rename/delete without migration order",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node harness/hooks/alias-migration-check.js"
+          }
+        ]
+      }
+    ]
+  },
+  "pending": {
+    "description": "These hooks are defined but not yet active. Activate when Storybook and TypeScript are configured.",
+    "hooks": [
+      {
+        "name": "build-check",
+        "description": "TypeScript compiles without errors + all props work after component write",
+        "command": "node harness/hooks/build-check.js",
+        "requires": ["TypeScript", "Storybook"]
+      },
+      {
+        "name": "regression-check",
+        "description": "All existing stories still pass after a component is modified",
+        "command": "node harness/hooks/regression-check.js",
+        "requires": ["Storybook"]
+      }
+    ]
+  }
+}

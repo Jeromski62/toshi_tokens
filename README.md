@@ -33,7 +33,7 @@ alias/*            → PUBLIC API — the only tier consumed by products
 
 Only the `alias/` tier is released and consumed by products. All other tiers exist to keep the system scalable, maintainable, and brand-swappable.
 
-For a full breakdown see [ARCHITECTURE.md](./ARCHITECTURE.md) and [CONVENTIONS.md](./CONVENTIONS.md).
+For a full breakdown see [ARCHITECTURE.md](./ARCHITECTURE.md) and [TOKEN-CONVENTIONS.md](./TOKEN-CONVENTIONS.md).
 
 ---
 
@@ -51,7 +51,7 @@ For a full breakdown see [ARCHITECTURE.md](./ARCHITECTURE.md) and [CONVENTIONS.m
 Toshi ships with agent-readable documentation and executable skill files:
 
 - [`ARCHITECTURE.md`](./docs/ARCHITECTURE.md) — tier model, reference chains, token structure
-- [`CONVENTIONS.md`](./docs/CONVENTIONS.md) — naming, value formats, structural rules
+- [`TOKEN-CONVENTIONS.md`](./docs/TOKEN-CONVENTIONS.md) — token naming, value formats, structural rules
 - [`AGENT-SETUP.md`](./docs/AGENT-SETUP.md) — how to set up an agent-assisted workflow
 - [`CLAUDE.md`](./CLAUDE.md) — instructions for Claude Code and compatible agents
 

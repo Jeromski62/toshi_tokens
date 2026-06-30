@@ -1,0 +1,24 @@
+{
+  "date": "YYYY-MM-DD",
+  "pipeline": "A | B | C | D | E",
+  "task": "Kurze Beschreibung der Aufgabe",
+  "agents": [
+    {
+      "agent": "token-agent | component-agent | docs-agent | context-agent | reviewer",
+      "result": "pass | fail",
+      "tokens_used": 0,
+      "findings": 0,
+      "notes": "Optional: Was war auffällig?"
+    }
+  ],
+  "hooks": [
+    {
+      "hook": "no-hardcode-check | context-sync | token-existence-check | alias-migration-check | wcag-check | storybook-completeness-check",
+      "triggered": 0,
+      "blocked": 0
+    }
+  ],
+  "total_tokens": 0,
+  "duration_minutes": 0,
+  "notes": "Optional: Was lief gut, was lief schlecht?"
+}

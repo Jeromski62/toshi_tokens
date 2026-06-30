@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "D:\\02_Work\\_Repos\\Toshi Design System"
+      ],
+      "description": "Access to the Toshi Design System repository. Use this to read and write token files, component files, and documentation."
+    },
+    "figma": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "figma-developer-mcp",
+        "--figma-api-key",
+        "${FIGMA_API_KEY}"
+      ],
+      "description": "Access to Figma files and designs. Use this when a visual input is provided — to inspect colors, typography, spacing, or component structure from a Figma frame or file."
+    }
+  }
+}
