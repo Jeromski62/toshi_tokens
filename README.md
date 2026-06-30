@@ -1,5 +1,7 @@
 # Toshi – Design Tokens
 
+![Toshi Design System](readMe_banner.jpg)
+
 **A design token boilerplate for your design system.**
 
 Toshi gives you a production-ready, structured token set to build on — so you don't have to start from scratch. It is designed for design teams working with Figma and Token Studio, and is built around an X-tier architecture concept by Marco-Christian Krenn.
