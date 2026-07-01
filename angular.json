@@ -36,6 +36,48 @@
               "zone.js/testing"
             ]
           }
+        },
+        "storybook": {
+          "builder": "@storybook/angular:start-storybook",
+          "options": {
+            "configDir": "projects/components/.storybook",
+            "browserTarget": "components:build",
+            "compodoc": true,
+            "compodocArgs": [
+              "-e",
+              "json",
+              "-d",
+              "projects/components"
+            ],
+            "styles": [
+              "projects/components/src/lib/tokens/brandA-light.css",
+              "projects/components/src/lib/tokens/brandA-dark.css",
+              "projects/components/src/lib/tokens/brandB-light.css",
+              "projects/components/src/lib/tokens/brandB-dark.css"
+            ],
+            "port": 6006
+          }
+        },
+        "build-storybook": {
+          "builder": "@storybook/angular:build-storybook",
+          "options": {
+            "configDir": "projects/components/.storybook",
+            "browserTarget": "components:build",
+            "compodoc": true,
+            "compodocArgs": [
+              "-e",
+              "json",
+              "-d",
+              "projects/components"
+            ],
+            "styles": [
+              "projects/components/src/lib/tokens/brandA-light.css",
+              "projects/components/src/lib/tokens/brandA-dark.css",
+              "projects/components/src/lib/tokens/brandB-light.css",
+              "projects/components/src/lib/tokens/brandB-dark.css"
+            ],
+            "outputDir": "storybook-static"
+          }
         }
       }
     }

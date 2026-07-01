@@ -6,7 +6,13 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "storybook": "ng run components:storybook",
+    "build-storybook": "ng run components:build-storybook",
+    "tokens:build": "node style-dictionary.config.mjs",
+    "prestorybook": "npm run tokens:build",
+    "prebuild-storybook": "npm run tokens:build",
+    "prebuild": "npm run tokens:build"
   },
   "private": true,
   "dependencies": {
@@ -27,6 +33,10 @@
     "@angular-devkit/build-angular": "^18.2.21",
     "@angular/cli": "^18.2.21",
     "@angular/compiler-cli": "^18.2.0",
+    "@compodoc/compodoc": "^2.0.0",
+    "@storybook/addon-docs": "^9.1.20",
+    "@storybook/angular": "^9.1.20",
+    "@tokens-studio/sd-transforms": "^2.0.3",
     "@types/jasmine": "~5.1.0",
     "jasmine-core": "~5.2.0",
     "karma": "~6.4.0",
@@ -35,6 +45,8 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "ng-packagr": "^18.2.0",
+    "storybook": "^9.1.20",
+    "style-dictionary": "^5.5.0",
     "typescript": "~5.5.2"
   }
 }
