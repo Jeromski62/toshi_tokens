@@ -3,3 +3,4 @@
  */
 
 export * from './lib/providers/toshi-primeng.provider';
+export * from './lib/button/button.component';

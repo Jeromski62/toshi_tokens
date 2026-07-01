@@ -1,0 +1,27 @@
+{
+  "button": {
+    "variants": ["primary"],
+    "states": ["default", "hover", "focus", "active", "disabled"],
+    "tokens": [
+      "alias.color.primary.brand",
+      "alias.color.primary.onBrand",
+      "alias.color.state.hover",
+      "alias.color.state.press",
+      "alias.color.state.disable",
+      "alias.color.state.onDisable",
+      "alias.border.focusOutline",
+      "alias.borderWidth.sm",
+      "alias.radius.md",
+      "alias.space.xs",
+      "alias.space.md",
+      "alias.space.2xs",
+      "alias.font.label.short"
+    ],
+    "storybook": "Base/Button",
+    "wcag": "AA",
+    "notes": [
+      "primary variant only — secondary/ghost/destructive not yet built",
+      "focus outline (alias.border.focusOutline) is a system-wide token; contrast against alias.color.background.body measures ~2.6:1, below the 3:1 UI minimum — not specific to this component, flagged to Token Agent as a follow-up"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "date": "2026-07-01",
+  "pipeline": "A",
+  "task": "Primary Button Component (kein Figma-Design, ausschliesslich bestehende alias-Tokens)",
+  "agents": [
+    {
+      "agent": "token-agent",
+      "result": "pass",
+      "tokens_used": "n/a",
+      "findings": 1,
+      "notes": "Alle benoetigten alias-Tokens existierten bereits (color, border, radius, size/space, font.label.short) — keine neuen Tokens noetig. Finding: alias.color.primary.interaction/onInteraction ergeben nur 4.35:1 Kontrast (faellt unter WCAG-AA-Textminimum 4.5:1); alias.color.primary.brand/onBrand (7.46:1) stattdessen fuer das Button-Fill gewaehlt."
+    },
+    {
+      "agent": "reviewer",
+      "result": "pass",
+      "tokens_used": "n/a",
+      "findings": 0,
+      "notes": "Token-Auswahl bestaetigt, keine erfundenen Tokennamen, keine Hardcoded-Values."
+    },
+    {
+      "agent": "component-agent",
+      "result": "pass",
+      "tokens_used": "n/a",
+      "findings": 1,
+      "notes": "ToshiButtonComponent (Primary) unter projects/components/src/lib/button/ gebaut, PrimeNG pButton unstyled + alias-Token-CSS-Custom-Properties. Contrast-Checks: Default 7.46:1 PASS, Disabled WCAG-exempt, Focus-Outline systemweiter Token mit kontextabhaengigem Kontrast (~3.2-3.4:1 auf highEmphasis-Flaeche PASS, ~2.6:1 auf body-Flaeche FAIL) — bestehender, komponentenuebergreifender Token, nicht component-spezifisch, an Token Agent als Folgeaufgabe geflaggt."
+    },
+    {
+      "agent": "reviewer",
+      "result": "pass",
+      "tokens_used": "n/a",
+      "findings": 1,
+      "notes": "PASS WITH NOTES — Focus-Outline-Kontrastluecke ist systemweit und ausserhalb des Component-Scopes, kein Blocker fuer diese Komponente."
+    },
+    {
+      "agent": "docs-agent",
+      "result": "pass",
+      "tokens_used": "n/a",
+      "findings": 0,
+      "notes": "Storybook Base/Button (Default, Disabled, Focus via play-Funktion) + docs/components/button.md mit Token-Referenz und Accessibility-Notes."
+    },
+    {
+      "agent": "context-agent",
+      "result": "pass",
+      "tokens_used": "n/a",
+      "findings": 0,
+      "notes": "context/components.json neu angelegt (button-Eintrag). context/tokens.json unveraendert (bereits vollstaendig, keine neuen Tokens). context/changelog.json um Style-Dictionary-Infrastruktur- und Button-Eintrag ergaenzt."
+    }
+  ],
+  "hooks": [
+    { "hook": "no-hardcode-check", "triggered": 0, "blocked": 0 },
+    { "hook": "token-existence-check", "triggered": 0, "blocked": 0 },
+    { "hook": "wcag-check", "triggered": 0, "blocked": 0 },
+    { "hook": "storybook-completeness-check", "triggered": 0, "blocked": 0 }
+  ],
+  "total_tokens": "n/a",
+  "duration_minutes": "n/a",
+  "notes": "Vor dem eigentlichen Component-Build musste zuerst eine Style-Dictionary-Pipeline (style-dictionary + @tokens-studio/sd-transforms) aufgesetzt werden, da es noch keinen Build-Schritt von DTCG-JSON zu konsumierbaren CSS Custom Properties gab — separater, vom Nutzer bestaetigter Zwischenschritt. Hover/Active-States sind reine CSS-Pseudoklassen ohne eigene Storybook-Story (Token-Referenz stattdessen in button.md); Focus-State hat eine dedizierte Story via play-Funktion."
+}

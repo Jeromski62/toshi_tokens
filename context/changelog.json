@@ -8,5 +8,25 @@
     "valuesChanged": 0,
     "verifiedBy": "Reviewer Agent — PASS, deep-equal check against original tokens.json (23/23 keys matched, 0 orphans)",
     "notes": "tokens/tokens.json retained on disk pending manual confirmation before removal."
+  },
+  {
+    "date": "2026-07-01",
+    "agent": "Token Agent",
+    "type": "infrastructure",
+    "summary": "Added style-dictionary + @tokens-studio/sd-transforms build pipeline (style-dictionary.config.mjs, `npm run tokens:build`) to compile DTCG alias tokens into consumable CSS custom properties, scoped per brand x mode (brandA/brandB x light/dark). Typography composites are expanded into separate properties (not the lossy CSS `font` shorthand) so letter-spacing is preserved.",
+    "filesChanged": 3,
+    "valuesChanged": 0,
+    "verifiedBy": "Reviewer Agent — PASS, generated CSS spot-checked against alias JSON source values for all 4 brand/mode combinations",
+    "notes": "Generated CSS under projects/components/src/lib/tokens/*.css is gitignored — regenerate via `npm run tokens:build` (also runs automatically before storybook/build)."
+  },
+  {
+    "date": "2026-07-01",
+    "agent": "Component Agent",
+    "type": "component",
+    "summary": "Added Button component, Primary variant (ToshiButtonComponent, projects/components/src/lib/button/) wrapping PrimeNG's unstyled pButton directive, styled entirely via alias token CSS custom properties. Storybook stories (Base/Button: Default, Disabled, Focus) and human documentation (docs/components/button.md) added.",
+    "filesChanged": 6,
+    "valuesChanged": 0,
+    "verifiedBy": "Reviewer Agent — PASS WITH NOTES, see docs/components/button.md accessibility notes for the pre-existing focus-outline contrast caveat",
+    "notes": "Rejected alias.color.primary.interaction/onInteraction for the fill (4.35:1 contrast, fails WCAG AA text minimum) in favor of alias.color.primary.brand/onBrand (7.46:1). No new tokens created."
   }
 ]

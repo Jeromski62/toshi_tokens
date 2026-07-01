@@ -1,0 +1,44 @@
+:host {
+  display: inline-flex;
+}
+
+.toshi-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--aliasSpace2xs);
+  padding-block: var(--aliasSpaceXs);
+  padding-inline: var(--aliasSpaceMd);
+  border: none;
+  border-radius: var(--aliasRadiusMd);
+  cursor: pointer;
+  font-family: var(--aliasFontLabelShortFontFamily);
+  font-weight: var(--aliasFontLabelShortFontWeight);
+  font-size: var(--aliasFontLabelShortFontSize);
+  line-height: var(--aliasFontLabelShortLineHeight);
+  letter-spacing: var(--aliasFontLabelShortLetterSpacing);
+}
+
+.toshi-button--primary {
+  background-color: var(--aliasColorPrimaryBrand);
+  color: var(--aliasColorPrimaryOnBrand);
+}
+
+.toshi-button--primary:hover:not(:disabled) {
+  background-image: linear-gradient(var(--aliasColorStateHover), var(--aliasColorStateHover));
+}
+
+.toshi-button--primary:active:not(:disabled) {
+  background-image: linear-gradient(var(--aliasColorStatePress), var(--aliasColorStatePress));
+}
+
+.toshi-button--primary:focus-visible {
+  outline: var(--aliasBorderFocusOutline);
+  outline-offset: var(--aliasBorderWidthSm);
+}
+
+.toshi-button--primary:disabled {
+  background-color: var(--aliasColorStateDisable);
+  color: var(--aliasColorStateOnDisable);
+  cursor: not-allowed;
+}

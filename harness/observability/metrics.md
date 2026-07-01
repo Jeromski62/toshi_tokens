@@ -8,6 +8,7 @@ Wird nach jeder Session aktualisiert. Gibt über Zeit ein Bild davon was normal 
 
 | Datum | Pipeline | Task | Tokens | Reviewer FAILs | Hook Blocks | Dauer |
 |---|---|---|---|---|---|---|
+| 2026-07-01 | A | Primary Button Component (kein Figma-Design, ausschliesslich bestehende alias-Tokens) | n/a | 0 | 0 | n/a |
 | 2026-06-30 | B | Token-Migration: tokens/tokens.json in Tier-Ordnerstruktur zerlegt (brand/, scaling/, breakpoint/, mode/, alias/, components[deprecated]/) | n/a | 0 | 0 | n/a |
 
 ---
