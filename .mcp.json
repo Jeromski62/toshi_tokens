@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "toshi-filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "D:\\02_Work\\_Repos\\Toshi Design System"
+      ]
+    },
+    "figma": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "figma-developer-mcp",
+        "--figma-api-key",
+        "${FIGMA_API_KEY}"
+      ]
+    }
+  }
+}
